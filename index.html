@@ -504,17 +504,17 @@ const TRIP = {
       id: 2,
       items: [
         { type: 'section', label: '오전 루틴' },
-        { type: 'stop', id: 'd2-run',  timeLabel: '07:00 – 08:00', title: '아침 러닝', note: '경포 둘레길 5km · 숙소에서 도보 진입', cat: 'activity', naverKey: '경포호' },
-        { type: 'stop', id: 'd2-prep', timeLabel: '08:00 – 10:00', title: '씻고 짐 챙기고 화장', note: '샤워 + 짐 정리 + 화장 · 체크아웃 준비 2시간', cat: 'stay' },
+        { type: 'stop', id: 'd2-run',  timeLabel: '07:00 – 08:30', title: '아침 러닝', note: '경포 둘레길 · 숙소에서 도보 진입', cat: 'activity', naverKey: '경포호' },
+        { type: 'stop', id: 'd2-prep', timeLabel: '08:30 – 11:00', title: '씻고 짐 챙기고 화장', note: '샤워 + 짐 정리 + 화장 · 체크아웃 준비', cat: 'stay' },
 
         { type: 'section', label: '체크아웃' },
-        { type: 'stop', id: 'd2-checkout', timeLabel: '10:00',          title: '체크아웃', note: '로맨스 인강문 · 체크아웃 11:00', cat: 'stay', naverKey: '숙소' },
-        { type: 'stop', id: 'd2-sand',     timeLabel: '10:00 – 10:10',  title: '강릉샌드 구매', note: '숙소 바로 앞', cat: 'shopping' },
+        { type: 'stop', id: 'd2-checkout', timeLabel: '11:00', title: '체크아웃', note: '로맨스 인강문 · 체크아웃 11:00', cat: 'stay', naverKey: '숙소' },
+        { type: 'stop', id: 'd2-sand', timeLabel: '11:00 – 11:10', title: '강릉샌드 구매', note: '숙소 바로 앞', cat: 'shopping' },
 
         { type: 'section', label: '초당마을' },
         { type: 'move', mode: 'walk', from: '숙소', to: '초당마을', dur: '약 15분' },
-        { type: 'stop', id: 'd2-gelato',  timeLabel: '10:25 – 10:50', title: '순두부 젤라또',        note: '초당순두부길 95-5', cat: 'meal', naverKey: '순두부젤라또' },
-        { type: 'stop', id: 'd2-sundubu', timeLabel: '11:00 – 12:30', title: '초당 순두부찌개 점심', note: '식당 확정 예정',      cat: 'meal', naverKey: '초당순두부마을' },
+        { type: 'stop', id: 'd2-sundubu', timeLabel: '11:30 – 13:00', title: '초당 순두부찌개 점심', note: '식당 확정 예정', cat: 'meal', naverKey: '초당순두부마을' },
+        { type: 'stop', id: 'd2-gelato',  timeLabel: '13:00 – 13:20', title: '순두부 젤라또', note: '초당순두부길 95-5 · 점심 후 디저트', cat: 'meal', naverKey: '순두부젤라또' },
 
         { type: 'section', label: '마지막 바다' },
         { type: 'move', mode: 'walk', from: '식당', to: '바닷가 카페', dur: '도보권' },
